@@ -1,45 +1,82 @@
 {
   "business": {
-    "name": "Gymnastics Template",
-    "tagline": "Your tagline here",
-    "subtext": "Supporting description here",
-    "phone": "",
-    "whatsapp": "",
-    "email": "",
-    "address": ""
+    "name": "Rockerzz Gymnastics Academy",
+    "tagline": "Train Like A Champion. Flip Higher.",
+    "subtext": "Professional gymnastics training for all ages and skill levels — from tiny tots to competitive athletes. We build strength, discipline, and confidence.",
+    "phone": "+91 98498 14364",
+    "whatsapp": "+91 98492 44555",
+    "email": "info@apexgymnastics.in",
+    "address": "Apollo Pharmacy Line, Deepthi Sreenagar Colony, Madinaguda, 2, RTC Colony Rd, Deepthisri Nagar, Miyapur, Hyderabad, Telangana — 500 049"
   },
   "hero": {
-    "badge": "Welcome",
-    "tagline": "Your main headline here",
-    "subtext": "Supporting text below the headline"
+    "badge": "Hyderabad, Telangana",
+    "tagline": "Train Like A Champion. Flip Higher.",
+    "subtext": "Professional gymnastics training for all ages and skill levels — from tiny tots to competitive athletes. We build strength, discipline, and confidence."
   },
   "about": {
-    "description": "Tell your story here...",
-    "established": "2020",
-    "totalClients": "100+",
-    "yearsExperience": "5+",
-    "brandsStocked": "10+"
+    "description": "Rockerzz Gymnastics Academy has grown into one of Hyderabad's most respected gymnastics training centres. We believe every child deserves world-class coaching — regardless of where they start. We train the whole athlete — body, mind and character. Every child who joins Rockerzz leaves stronger, more confident and more disciplined, whether or not they ever compete. Our facility has a full floor exercise area, balance beams, uneven bars, vault runway, and a foam pit for safe skill development.",
+    "established": "2012",
+    "totalClients": "200+",
+    "yearsExperience": "12+",
+    "brandsStocked": "8"
   },
   "products": [
     {
-      "id": "prod_1",
-      "name": "Service One",
-      "description": "Description of your first service or product."
+      "id": "prod_tiny_tots",
+      "name": "Tiny Tots — Ages 3–5",
+      "description": "A playful introduction to gymnastics for the youngest learners. Every session builds confidence, improves coordination and makes movement joyful through games and structured play. Tue & Thu · 10:00–11:00 AM · Coach: Priya Sharma"
+    },
+    {
+      "id": "prod_beginners",
+      "name": "Beginners — Ages 6–9",
+      "description": "A structured foundation batch for children new to gymnastics. Students learn correct technique, safe falling, and build strength through progressive drills. Covers cartwheels, forward rolls, handstands and basic bar work. Mon / Wed / Fri · 5:30–6:30 PM · Coach: Rahul Mehta"
+    },
+    {
+      "id": "prod_intermediate",
+      "name": "Intermediate — Ages 9–13",
+      "description": "For students who have mastered the basics and are ready to progress to more dynamic skills. Covers back walkovers, round-offs, aerials, floor routines, beam and bars. Mon / Wed / Fri · 4:00–5:30 PM · Coach: Ananya Verma"
+    },
+    {
+      "id": "prod_advanced",
+      "name": "Advanced & Competitive — Ages 12–17",
+      "description": "Intensive training for students targeting district, state and national-level competitions. Focus on perfecting full routines, peak physical conditioning and competition mindset. Mon–Fri · 6:30–8:00 AM · Coach: Kiran Joshi"
+    },
+    {
+      "id": "prod_artistic",
+      "name": "Artistic Gymnastics — Ages 10–18",
+      "description": "A specialised programme covering all four women's artistic events — vault, uneven bars, balance beam and floor. Ideal for students with ambitions to compete at state and national level. Tue / Thu / Sat · 5:00–7:00 PM · Coach: Deepa Nair"
+    },
+    {
+      "id": "prod_adult",
+      "name": "Adult Fitness Gymnastics — Ages 18+",
+      "description": "Designed for adults who want to improve flexibility, build core strength and experience the joy of gymnastics without any prior background. All fitness levels welcome. Sat & Sun · 8:00–9:30 AM · Coach: Priya Sharma"
     }
   ],
   "testimonials": [
     {
       "id": "testi_1",
-      "name": "Happy Customer",
-      "role": "Customer",
-      "text": "Great service!"
+      "name": "Sunita Pawar",
+      "role": "Parent of Riya, Age 11",
+      "text": "My daughter trained here for two years and the transformation is incredible. She went from shy and uncoordinated to performing at state level. The coaches are truly exceptional."
+    },
+    {
+      "id": "testi_2",
+      "name": "Amit Kulkarni",
+      "role": "Parent of Vedant, Age 4",
+      "text": "The Tiny Tots programme was the best decision for our 4-year-old. Priya Ma'am has such a patient way with little ones. Vedant looks forward to every single class."
+    },
+    {
+      "id": "testi_3",
+      "name": "Neha Joshi",
+      "role": "Adult Fitness Batch · Age 28",
+      "text": "I joined the adult fitness batch with zero gymnastics background. Six months in and my flexibility and core strength are the best they've ever been. Highly recommend!"
     }
   ],
   "contact": {
-    "phone": "",
-    "whatsapp": "",
-    "email": "",
-    "address": "",
-    "mapUrl": ""
+    "phone": "+91 98498 14364",
+    "whatsapp": "+91 98492 44555",
+    "email": "info@apexgymnastics.in",
+    "address": "Apollo Pharmacy Line, Deepthi Sreenagar Colony, Madinaguda, 2, RTC Colony Rd, Deepthisri Nagar, Miyapur, Hyderabad, Telangana — 500 049",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.4!2d78.3363440!3d17.4970725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb928803bfbe2d:0xd2dfc6ac2818a576!2sROCKERZZ+GYMNASTICS+ACADEMY!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
   }
 }
