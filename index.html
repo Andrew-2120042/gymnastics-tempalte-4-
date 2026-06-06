@@ -824,7 +824,7 @@ function cmsGet(obj, path) {
 
 function applyCmsConfig(config) {
   var b  = config.business    || {};
-  var h  = config.hero        || {};
+  var h  = Object.assign({}, config.business || {}, config.hero || {});
   var ct = config.contact     || {};
 
   // Document title
@@ -832,7 +832,7 @@ function applyCmsConfig(config) {
 
   // Hero h1 tagline — reconstruct with <em> on last sentence
   document.querySelectorAll('[data-cms="hero.tagline"]').forEach(function(el) {
-    var tagline = h.tagline || '';
+    var tagline = h.tagline || b.tagline || '';
     if (!tagline) return;
     var parts = tagline.split('. ');
     if (parts.length > 1) {
