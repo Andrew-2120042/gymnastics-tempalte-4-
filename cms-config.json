@@ -8,75 +8,258 @@
     "email": "info@apexgymnastics.in",
     "address": "Apollo Pharmacy Line, Deepthi Sreenagar Colony, Madinaguda, 2, RTC Colony Rd, Deepthisri Nagar, Miyapur, Hyderabad, Telangana — 500 049"
   },
-  "hero": {
-    "badge": "Hyderabad, Telangana",
-    "tagline": "im Andrew Wilson",
-    "subtext": "Professional gymnastics training for all ages and skill levels — from tiny tots to competitive athletes. We build strength, discipline, and confidence."
-  },
-  "about": {
-    "description": "Rockerzz Gymnastics Academy has grown into one of Hyderabad's most respected gymnastics training centres. We believe every child deserves world-class coaching — regardless of where they start. We train the whole athlete — body, mind and character. Every child who joins Rockerzz leaves stronger, more confident and more disciplined, whether or not they ever compete. Our facility has a full floor exercise area, balance beams, uneven bars, vault runway, and a foam pit for safe skill development.",
-    "established": "2012",
-    "totalClients": "200+",
-    "yearsExperience": "12+",
-    "brandsStocked": "8"
-  },
-  "products": [
-    {
-      "id": "prod_tiny_tots",
-      "name": "Tiny Tots — Ages 3–5",
-      "description": "A playful introduction to gymnastics for the youngest learners. Every session builds confidence, improves coordination and makes movement joyful through games and structured play. Tue & Thu · 10:00–11:00 AM · Coach: Priya Sharma"
+  "pages": {
+    "home": {
+      "hero": {
+        "badge": "Hyderabad, Telangana",
+        "tagline": "im Andrew Wilson",
+        "subtext": "Professional gymnastics training for all ages and skill levels — from tiny tots to competitive athletes. We build strength, discipline, and confidence."
+      },
+      "about": {
+        "description": "Rockerzz Gymnastics Academy has grown into one of Hyderabad's most respected gymnastics training centres. We believe every child deserves world-class coaching — regardless of where they start. We train the whole athlete — body, mind and character. Every child who joins Rockerzz leaves stronger, more confident and more disciplined, whether or not they ever compete. Our facility has a full floor exercise area, balance beams, uneven bars, vault runway, and a foam pit for safe skill development.",
+        "established": "2012",
+        "totalClients": "200+",
+        "yearsExperience": "12+",
+        "brandsStocked": "8"
+      },
+      "products": [
+        {
+          "id": "prod_tiny_tots",
+          "name": "Tiny Tots — Ages 3–5",
+          "description": "A playful introduction to gymnastics for the youngest learners. Every session builds confidence, improves coordination and makes movement joyful through games and structured play. Tue & Thu · 10:00–11:00 AM · Coach: Priya Sharma"
+        },
+        {
+          "id": "prod_beginners",
+          "name": "Beginners — Ages 6–9",
+          "description": "A structured foundation batch for children new to gymnastics. Students learn correct technique, safe falling, and build strength through progressive drills. Covers cartwheels, forward rolls, handstands and basic bar work. Mon / Wed / Fri · 5:30–6:30 PM · Coach: Rahul Mehta"
+        },
+        {
+          "id": "prod_intermediate",
+          "name": "Intermediate — Ages 9–13",
+          "description": "For students who have mastered the basics and are ready to progress to more dynamic skills. Covers back walkovers, round-offs, aerials, floor routines, beam and bars. Mon / Wed / Fri · 4:00–5:30 PM · Coach: Ananya Verma"
+        },
+        {
+          "id": "prod_advanced",
+          "name": "Advanced & Competitive — Ages 12–17",
+          "description": "Intensive training for students targeting district, state and national-level competitions. Focus on perfecting full routines, peak physical conditioning and competition mindset. Mon–Fri · 6:30–8:00 AM · Coach: Kiran Joshi"
+        },
+        {
+          "id": "prod_artistic",
+          "name": "Artistic Gymnastics — Ages 10–18",
+          "description": "A specialised programme covering all four women's artistic events — vault, uneven bars, balance beam and floor. Ideal for students with ambitions to compete at state and national level. Tue / Thu / Sat · 5:00–7:00 PM · Coach: Deepa Nair"
+        },
+        {
+          "id": "prod_adult",
+          "name": "Adult Fitness Gymnastics — Ages 18+",
+          "description": "Designed for adults who want to improve flexibility, build core strength and experience the joy of gymnastics without any prior background. All fitness levels welcome. Sat & Sun · 8:00–9:30 AM · Coach: Priya Sharma"
+        }
+      ],
+      "gallery": [
+        {
+          "id": "img_1780769810836_katnt",
+          "filename": "Featured-Image-5.jpg",
+          "alt": "Featured Image 5"
+        },
+        {
+          "id": "img_1780769810836_xqhiv",
+          "filename": "Safe-Gymnastics-Training.jpg",
+          "alt": "Safe Gymnastics Training"
+        },
+        {
+          "id": "img_1780769810836_vo2ll",
+          "filename": "gymnast-pose.jpg",
+          "alt": "gymnast pose"
+        },
+        {
+          "id": "img_1780769810836_v3b0h",
+          "filename": "images-2.jpeg",
+          "alt": "images 2"
+        },
+        {
+          "id": "img_1780769810836_2hlf7",
+          "filename": "images-3.jpeg",
+          "alt": "images 3"
+        },
+        {
+          "id": "img_1780769810836_244if",
+          "filename": "images.jpeg",
+          "alt": "images"
+        },
+        {
+          "id": "img_1780769810836_j8ixl",
+          "filename": "pexels-alex-197677521-11951233.jpg",
+          "alt": "pexels alex 197677521 11951233"
+        },
+        {
+          "id": "img_1780769810836_qd1bv",
+          "filename": "pexels-delot-18471453.jpg",
+          "alt": "pexels delot 18471453"
+        },
+        {
+          "id": "img_1780769810836_eligf",
+          "filename": "pexels-j-e-22471780-18569750.jpg",
+          "alt": "pexels j e 22471780 18569750"
+        },
+        {
+          "id": "img_1780769810836_pq2ur",
+          "filename": "pexels-mandiri-abadi-396768996-14804699.jpg",
+          "alt": "pexels mandiri abadi 396768996 14804699"
+        },
+        {
+          "id": "img_1780769810836_qp45d",
+          "filename": "pexels-mandiri-abadi-396768996-14805033.jpg",
+          "alt": "pexels mandiri abadi 396768996 14805033"
+        },
+        {
+          "id": "img_1780769810836_pby26",
+          "filename": "pexels-tkirkgoz-11765538.jpg",
+          "alt": "pexels tkirkgoz 11765538"
+        },
+        {
+          "id": "img_1780769810836_3pg1v",
+          "filename": "unnamed-10.jpg",
+          "alt": "unnamed 10"
+        },
+        {
+          "id": "img_1780769810836_4by8h",
+          "filename": "unnamed-11.jpg",
+          "alt": "unnamed 11"
+        },
+        {
+          "id": "img_1780769810836_fc3fw",
+          "filename": "unnamed-12.jpg",
+          "alt": "unnamed 12"
+        },
+        {
+          "id": "img_1780769810836_2q1qs",
+          "filename": "unnamed-13.jpg",
+          "alt": "unnamed 13"
+        },
+        {
+          "id": "img_1780769810836_84hf6",
+          "filename": "unnamed-14.jpg",
+          "alt": "unnamed 14"
+        },
+        {
+          "id": "img_1780769810836_fuhqk",
+          "filename": "unnamed-15.jpg",
+          "alt": "unnamed 15"
+        },
+        {
+          "id": "img_1780769810836_fetx8",
+          "filename": "unnamed-16.jpg",
+          "alt": "unnamed 16"
+        },
+        {
+          "id": "img_1780769810836_nnqzr",
+          "filename": "unnamed-17.jpg",
+          "alt": "unnamed 17"
+        },
+        {
+          "id": "img_1780769810836_pwtu8",
+          "filename": "unnamed-18.jpg",
+          "alt": "unnamed 18"
+        },
+        {
+          "id": "img_1780769810836_v6m5p",
+          "filename": "unnamed-19.jpg",
+          "alt": "unnamed 19"
+        },
+        {
+          "id": "img_1780769810836_0wvgx",
+          "filename": "unnamed-2.jpg",
+          "alt": "unnamed 2"
+        },
+        {
+          "id": "img_1780769810836_gfgu3",
+          "filename": "unnamed-20.jpg",
+          "alt": "unnamed 20"
+        },
+        {
+          "id": "img_1780769810836_3xnwr",
+          "filename": "unnamed-21.jpg",
+          "alt": "unnamed 21"
+        },
+        {
+          "id": "img_1780769810836_qy9yf",
+          "filename": "unnamed-22.jpg",
+          "alt": "unnamed 22"
+        },
+        {
+          "id": "img_1780769810836_vq505",
+          "filename": "unnamed-3.jpg",
+          "alt": "unnamed 3"
+        },
+        {
+          "id": "img_1780769810836_8c56e",
+          "filename": "unnamed-4.jpg",
+          "alt": "unnamed 4"
+        },
+        {
+          "id": "img_1780769810836_ad0d5",
+          "filename": "unnamed-5.jpg",
+          "alt": "unnamed 5"
+        },
+        {
+          "id": "img_1780769810836_l7gzy",
+          "filename": "unnamed-6.jpg",
+          "alt": "unnamed 6"
+        },
+        {
+          "id": "img_1780769810836_b2ok2",
+          "filename": "unnamed-7.jpg",
+          "alt": "unnamed 7"
+        },
+        {
+          "id": "img_1780769810836_kp2vd",
+          "filename": "unnamed-8.jpg",
+          "alt": "unnamed 8"
+        },
+        {
+          "id": "img_1780769810836_h0ze5",
+          "filename": "unnamed-9.jpg",
+          "alt": "unnamed 9"
+        },
+        {
+          "id": "img_1780769810836_b607r",
+          "filename": "unnamed.jpg",
+          "alt": "unnamed"
+        }
+      ],
+      "testimonials": [
+        {
+          "id": "testi_1",
+          "name": "Sunita Pawar",
+          "role": "Parent of Riya, Age 11",
+          "text": "My daughter trained here for two years and the transformation is incredible. She went from shy and uncoordinated to performing at state level. The coaches are truly exceptional."
+        },
+        {
+          "id": "testi_2",
+          "name": "Amit Kulkarni",
+          "role": "Parent of Vedant, Age 4",
+          "text": "The Tiny Tots programme was the best decision for our 4-year-old. Priya Ma'am has such a patient way with little ones. Vedant looks forward to every single class."
+        },
+        {
+          "id": "testi_3",
+          "name": "Neha Joshi",
+          "role": "Adult Fitness Batch · Age 28",
+          "text": "I joined the adult fitness batch with zero gymnastics background. Six months in and my flexibility and core strength are the best they've ever been. Highly recommend!"
+        }
+      ]
     },
-    {
-      "id": "prod_beginners",
-      "name": "Beginners — Ages 6–9",
-      "description": "A structured foundation batch for children new to gymnastics. Students learn correct technique, safe falling, and build strength through progressive drills. Covers cartwheels, forward rolls, handstands and basic bar work. Mon / Wed / Fri · 5:30–6:30 PM · Coach: Rahul Mehta"
+    "contact": {
+      "phone": "+91 98498 14364",
+      "whatsapp": "+91 98492 44555",
+      "email": "info@apexgymnastics.in",
+      "address": "Apollo Pharmacy Line, Deepthi Sreenagar Colony, Madinaguda, 2, RTC Colony Rd, Deepthisri Nagar, Miyapur, Hyderabad, Telangana — 500 049",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.4!2d78.3363440!3d17.4970725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb928803bfbe2d:0xd2dfc6ac2818a576!2sROCKERZZ+GYMNASTICS+ACADEMY!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
     },
-    {
-      "id": "prod_intermediate",
-      "name": "Intermediate — Ages 9–13",
-      "description": "For students who have mastered the basics and are ready to progress to more dynamic skills. Covers back walkovers, round-offs, aerials, floor routines, beam and bars. Mon / Wed / Fri · 4:00–5:30 PM · Coach: Ananya Verma"
-    },
-    {
-      "id": "prod_advanced",
-      "name": "Advanced & Competitive — Ages 12–17",
-      "description": "Intensive training for students targeting district, state and national-level competitions. Focus on perfecting full routines, peak physical conditioning and competition mindset. Mon–Fri · 6:30–8:00 AM · Coach: Kiran Joshi"
-    },
-    {
-      "id": "prod_artistic",
-      "name": "Artistic Gymnastics — Ages 10–18",
-      "description": "A specialised programme covering all four women's artistic events — vault, uneven bars, balance beam and floor. Ideal for students with ambitions to compete at state and national level. Tue / Thu / Sat · 5:00–7:00 PM · Coach: Deepa Nair"
-    },
-    {
-      "id": "prod_adult",
-      "name": "Adult Fitness Gymnastics — Ages 18+",
-      "description": "Designed for adults who want to improve flexibility, build core strength and experience the joy of gymnastics without any prior background. All fitness levels welcome. Sat & Sun · 8:00–9:30 AM · Coach: Priya Sharma"
+    "about": {
+      "description": "Rockerzz Gymnastics Academy has grown into one of Hyderabad's most respected gymnastics training centres. We believe every child deserves world-class coaching — regardless of where they start. We train the whole athlete — body, mind and character. Every child who joins Rockerzz leaves stronger, more confident and more disciplined, whether or not they ever compete. Our facility has a full floor exercise area, balance beams, uneven bars, vault runway, and a foam pit for safe skill development.",
+      "established": "2012",
+      "totalClients": "200+",
+      "yearsExperience": "12+",
+      "brandsStocked": "8"
     }
-  ],
-  "testimonials": [
-    {
-      "id": "testi_1",
-      "name": "Sunita Pawar",
-      "role": "Parent of Riya, Age 11",
-      "text": "My daughter trained here for two years and the transformation is incredible. She went from shy and uncoordinated to performing at state level. The coaches are truly exceptional."
-    },
-    {
-      "id": "testi_2",
-      "name": "Amit Kulkarni",
-      "role": "Parent of Vedant, Age 4",
-      "text": "The Tiny Tots programme was the best decision for our 4-year-old. Priya Ma'am has such a patient way with little ones. Vedant looks forward to every single class."
-    },
-    {
-      "id": "testi_3",
-      "name": "Neha Joshi",
-      "role": "Adult Fitness Batch · Age 28",
-      "text": "I joined the adult fitness batch with zero gymnastics background. Six months in and my flexibility and core strength are the best they've ever been. Highly recommend!"
-    }
-  ],
-  "contact": {
-    "phone": "+91 98498 14364",
-    "whatsapp": "+91 98492 44555",
-    "email": "info@apexgymnastics.in",
-    "address": "Apollo Pharmacy Line, Deepthi Sreenagar Colony, Madinaguda, 2, RTC Colony Rd, Deepthisri Nagar, Miyapur, Hyderabad, Telangana — 500 049",
-    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.4!2d78.3363440!3d17.4970725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb928803bfbe2d:0xd2dfc6ac2818a576!2sROCKERZZ+GYMNASTICS+ACADEMY!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
   }
 }
