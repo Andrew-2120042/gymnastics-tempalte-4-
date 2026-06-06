@@ -196,11 +196,6 @@
           "alt": "unnamed 4"
         },
         {
-          "id": "img_1780769810836_ad0d5",
-          "filename": "unnamed-5.jpg",
-          "alt": "unnamed 5"
-        },
-        {
           "id": "img_1780769810836_l7gzy",
           "filename": "unnamed-6.jpg",
           "alt": "unnamed 6"
@@ -224,6 +219,11 @@
           "id": "img_1780769810836_b607r",
           "filename": "unnamed.jpg",
           "alt": "unnamed"
+        },
+        {
+          "id": "img_1780770360434",
+          "filename": "images/IMG_1422.PNG",
+          "alt": "IMG 1422"
         }
       ],
       "testimonials": [
