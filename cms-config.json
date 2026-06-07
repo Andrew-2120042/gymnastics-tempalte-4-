@@ -58,172 +58,233 @@
         {
           "id": "img_1780769810836_katnt",
           "filename": "Featured-Image-5.jpg",
-          "alt": "Featured Image 5"
+          "alt": "Featured Image 5",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_xqhiv",
           "filename": "Safe-Gymnastics-Training.jpg",
-          "alt": "Safe Gymnastics Training"
+          "alt": "Safe Gymnastics Training",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_vo2ll",
           "filename": "gymnast-pose.jpg",
-          "alt": "gymnast pose"
+          "alt": "gymnast pose",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_v3b0h",
           "filename": "images-2.jpeg",
-          "alt": "images 2"
+          "alt": "images 2",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_2hlf7",
           "filename": "images-3.jpeg",
-          "alt": "images 3"
+          "alt": "images 3",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_244if",
           "filename": "images.jpeg",
-          "alt": "images"
+          "alt": "images",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_j8ixl",
           "filename": "pexels-alex-197677521-11951233.jpg",
-          "alt": "pexels alex 197677521 11951233"
+          "alt": "pexels alex 197677521 11951233",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_qd1bv",
           "filename": "pexels-delot-18471453.jpg",
-          "alt": "pexels delot 18471453"
+          "alt": "pexels delot 18471453",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_eligf",
           "filename": "pexels-j-e-22471780-18569750.jpg",
-          "alt": "pexels j e 22471780 18569750"
+          "alt": "pexels j e 22471780 18569750",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_pq2ur",
           "filename": "pexels-mandiri-abadi-396768996-14804699.jpg",
-          "alt": "pexels mandiri abadi 396768996 14804699"
+          "alt": "pexels mandiri abadi 396768996 14804699",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_qp45d",
           "filename": "pexels-mandiri-abadi-396768996-14805033.jpg",
-          "alt": "pexels mandiri abadi 396768996 14805033"
+          "alt": "pexels mandiri abadi 396768996 14805033",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_pby26",
           "filename": "pexels-tkirkgoz-11765538.jpg",
-          "alt": "pexels tkirkgoz 11765538"
+          "alt": "pexels tkirkgoz 11765538",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_3pg1v",
           "filename": "unnamed-10.jpg",
-          "alt": "unnamed 10"
+          "alt": "unnamed 10",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_4by8h",
           "filename": "unnamed-11.jpg",
-          "alt": "unnamed 11"
+          "alt": "unnamed 11",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_fc3fw",
           "filename": "unnamed-12.jpg",
-          "alt": "unnamed 12"
+          "alt": "unnamed 12",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_2q1qs",
           "filename": "unnamed-13.jpg",
-          "alt": "unnamed 13"
+          "alt": "unnamed 13",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_84hf6",
           "filename": "unnamed-14.jpg",
-          "alt": "unnamed 14"
+          "alt": "unnamed 14",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_fuhqk",
           "filename": "unnamed-15.jpg",
-          "alt": "unnamed 15"
+          "alt": "unnamed 15",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_fetx8",
           "filename": "unnamed-16.jpg",
-          "alt": "unnamed 16"
+          "alt": "unnamed 16",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_nnqzr",
           "filename": "unnamed-17.jpg",
-          "alt": "unnamed 17"
+          "alt": "unnamed 17",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_pwtu8",
           "filename": "unnamed-18.jpg",
-          "alt": "unnamed 18"
+          "alt": "unnamed 18",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_v6m5p",
           "filename": "unnamed-19.jpg",
-          "alt": "unnamed 19"
+          "alt": "unnamed 19",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_0wvgx",
           "filename": "unnamed-2.jpg",
-          "alt": "unnamed 2"
+          "alt": "unnamed 2",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_gfgu3",
           "filename": "unnamed-20.jpg",
-          "alt": "unnamed 20"
+          "alt": "unnamed 20",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_3xnwr",
           "filename": "unnamed-21.jpg",
-          "alt": "unnamed 21"
+          "alt": "unnamed 21",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_qy9yf",
           "filename": "unnamed-22.jpg",
-          "alt": "unnamed 22"
+          "alt": "unnamed 22",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_vq505",
           "filename": "unnamed-3.jpg",
-          "alt": "unnamed 3"
+          "alt": "unnamed 3",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_8c56e",
           "filename": "unnamed-4.jpg",
-          "alt": "unnamed 4"
+          "alt": "unnamed 4",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_l7gzy",
           "filename": "unnamed-6.jpg",
-          "alt": "unnamed 6"
+          "alt": "unnamed 6",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_b2ok2",
           "filename": "unnamed-7.jpg",
-          "alt": "unnamed 7"
+          "alt": "unnamed 7",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_kp2vd",
           "filename": "unnamed-8.jpg",
-          "alt": "unnamed 8"
+          "alt": "unnamed 8",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_h0ze5",
           "filename": "unnamed-9.jpg",
-          "alt": "unnamed 9"
+          "alt": "unnamed 9",
+          "objectPosition": "center center",
+          "zoom": 1
         },
         {
           "id": "img_1780769810836_b607r",
           "filename": "unnamed.jpg",
-          "alt": "unnamed"
-        },
-        {
-          "id": "img_1780770360434",
-          "filename": "images/IMG_1422.PNG",
-          "alt": "IMG 1422"
+          "alt": "unnamed",
+          "objectPosition": "center center",
+          "zoom": 1
         }
       ],
       "testimonials": [
@@ -245,7 +306,10 @@
           "role": "Adult Fitness Batch · Age 28",
           "text": "I joined the adult fitness batch with zero gymnastics background. Six months in and my flexibility and core strength are the best they've ever been. Highly recommend!"
         }
-      ]
+      ],
+      "videos": [],
+      "coaches": [],
+      "classes": []
     },
     "contact": {
       "phone": "+91 98498 14364",
