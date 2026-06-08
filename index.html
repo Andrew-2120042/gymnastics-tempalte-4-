@@ -823,9 +823,25 @@ function cmsGet(obj, path) {
 }
 
 function applyCmsConfig(config) {
-  var b  = config.business    || {};
-  var h  = Object.assign({}, config.business || {}, config.hero || {});
-  var ct = config.contact     || {};
+  // Support both old flat format and new SiteDesk pages structure
+  var home   = (config.pages && config.pages.home) || {};
+  var b      = config.business || {};
+  var hero   = home.hero || config.hero || {};
+  var about  = (config.pages && config.pages.about) || config.about || home.about || {};
+  var ct     = (config.pages && config.pages.contact) || config.contact || {};
+  var h      = Object.assign({}, b, hero);
+
+  // Normalize renamed stat fields so old data-cms keys still resolve
+  about.totalStudents = about.totalStudents || about.totalClients || '';
+  about.coaches       = about.coaches       || about.brandsStocked || '';
+
+  var classes      = home.classes      || config.classes      || [];
+  var coaches      = home.coaches      || config.coaches      || [];
+  var testimonials = home.testimonials || config.testimonials || [];
+  var gallery      = home.gallery      || config.gallery      || [];
+
+  // Flat lookup for generic data-cms path resolution
+  var flat = { business: b, hero: h, about: about, contact: ct };
 
   // Document title
   if (b.name) document.title = b.name;
@@ -844,29 +860,25 @@ function applyCmsConfig(config) {
     }
   });
 
-  // Generic textContent updates — skips hero.tagline (handled above)
-  // and footer.copyright (constructed dynamically below).
-  // Paths like "classes.name", "coaches.name", "testimonials.text" naturally
-  // resolve to undefined on array objects, so they are safely skipped here
-  // and handled by the per-item loops below.
+  // Generic textContent updates
   document.querySelectorAll('[data-cms]').forEach(function(el) {
     var path = el.getAttribute('data-cms');
     if (path === 'hero.tagline')     return;
     if (path === 'footer.copyright') return;
-    var val = cmsGet(config, path);
+    var val = cmsGet(flat, path);
     if (val !== undefined && val !== null && val !== '') {
       el.textContent = val;
     }
   });
 
-  // Footer copyright — built from business name + current year
+  // Footer copyright
   var copyEl = document.querySelector('[data-cms="footer.copyright"]');
   if (copyEl && b.name) {
     copyEl.textContent = '© ' + new Date().getFullYear() + ' ' + b.name + '. All rights reserved.';
   }
 
-  // WhatsApp links — update href on both the floating button and the contact section button
-  var waNum = (ct.whatsapp || '').replace(/\D/g, '');
+  // WhatsApp links
+  var waNum = ((ct.whatsapp || b.whatsapp) || '').replace(/\D/g, '');
   if (waNum) {
     var waMsg  = encodeURIComponent('Hi, I am interested in joining your gymnastics academy');
     var waHref = 'https://wa.me/' + waNum + '?text=' + waMsg;
@@ -878,9 +890,9 @@ function applyCmsConfig(config) {
     });
   }
 
-  // Classes — update each visible card + sync classData for the drawer
+  // Classes — update text, timing, and background image
   var drawerKeys = ['tiny-tots','beginners','intermediate','advanced','artistic','adult'];
-  (config.classes || []).forEach(function(cls, i) {
+  classes.forEach(function(cls, i) {
     var item = document.querySelector('[data-cms-class="' + i + '"]');
     if (item) {
       var nameEl = item.querySelector('[data-cms="classes.name"]');
@@ -894,8 +906,11 @@ function applyCmsConfig(config) {
         var tp = cls.timing.split(' · ');
         schedEl.innerHTML = '<strong>' + (tp[0] || cls.timing) + '</strong>' + (tp[1] || '');
       }
+      if (cls.image && cls.image.filename) {
+        item.style.backgroundImage = "url('" + cls.image.filename + "')";
+        if (cls.image.objectPosition) item.style.backgroundPosition = cls.image.objectPosition;
+      }
     }
-    // Keep drawer in sync
     var key = drawerKeys[i];
     if (key && classData[key]) {
       if (cls.name)        classData[key].title = cls.name;
@@ -906,11 +921,12 @@ function applyCmsConfig(config) {
         if (tp2[0]) classData[key].days = tp2[0];
         if (tp2[1]) classData[key].time = tp2[1];
       }
+      if (cls.image && cls.image.filename) classData[key].img = cls.image.filename;
     }
   });
 
-  // Coaches — update each card and derive initials from name
-  (config.coaches || []).forEach(function(coach, i) {
+  // Coaches — update text and photo
+  coaches.forEach(function(coach, i) {
     var card = document.querySelector('[data-cms-coach="' + i + '"]');
     if (!card) return;
     var nameEl = card.querySelector('[data-cms="coaches.name"]');
@@ -924,10 +940,18 @@ function applyCmsConfig(config) {
       initEl.textContent = coach.name.split(' ')
         .map(function(w){ return w.charAt(0); }).join('').substring(0, 2).toUpperCase();
     }
+    if (coach.photo && coach.photo.filename) {
+      var photoEl = card.querySelector('.coach-photo');
+      if (photoEl) {
+        photoEl.style.backgroundImage = "url('" + coach.photo.filename + "')";
+        photoEl.style.backgroundSize = 'cover';
+        photoEl.style.backgroundPosition = coach.photo.objectPosition || 'center top';
+      }
+    }
   });
 
-  // Testimonials — update each card and derive avatar initials from name
-  (config.testimonials || []).forEach(function(testi, i) {
+  // Testimonials
+  testimonials.forEach(function(testi, i) {
     var card = document.querySelector('[data-cms-testi="' + i + '"]');
     if (!card) return;
     var textEl = card.querySelector('[data-cms="testimonials.text"]');
@@ -942,6 +966,46 @@ function applyCmsConfig(config) {
         .map(function(w){ return w.charAt(0); }).join('').substring(0, 2).toUpperCase();
     }
   });
+
+  // Homepage gallery preview — update from config
+  if (gallery.length > 0) {
+    var placeholders = document.querySelectorAll('.gallery-section .gallery-placeholder');
+    placeholders.forEach(function(el, i) {
+      if (!gallery[i] || !gallery[i].filename) return;
+      var f   = gallery[i].filename;
+      var pos = gallery[i].objectPosition || 'center';
+      el.style.backgroundImage = "url('" + f + "')";
+      el.style.backgroundPosition = pos;
+      el.style.backgroundSize = 'cover';
+    });
+
+    // Full gallery page — rebuild grid dynamically from config
+    var galleryGrid = document.querySelector('.gallery-full-grid');
+    if (galleryGrid) {
+      galleryGrid.innerHTML = '';
+      gallery.forEach(function(img) {
+        if (!img.filename) return;
+        var fn  = img.filename;
+        var alt = img.alt || '';
+        var div = document.createElement('div');
+        div.className = 'g-item';
+        div.setAttribute('data-cat', 'all');
+        div.onclick = function() { openLightbox(alt || fn, fn); };
+        var inner = document.createElement('div');
+        inner.className = 'g-item-inner';
+        inner.style.backgroundImage = "url('" + fn + "')";
+        if (img.objectPosition) inner.style.backgroundPosition = img.objectPosition;
+        var labelDiv = document.createElement('div');
+        labelDiv.className = 'g-item-label';
+        var span = document.createElement('span');
+        span.textContent = alt;
+        labelDiv.appendChild(span);
+        div.appendChild(inner);
+        div.appendChild(labelDiv);
+        galleryGrid.appendChild(div);
+      });
+    }
+  }
 }
 // ── END CMS CONFIG ──────────────────────────────────────────────────────────
 
